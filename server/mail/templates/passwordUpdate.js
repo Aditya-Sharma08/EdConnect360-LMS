@@ -1,5 +1,5 @@
 exports.passwordUpdated = (email, name) => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -55,7 +55,7 @@ exports.passwordUpdated = (email, name) => {
     
     <body>
         <div class="container">
-        <a href="https://studynotion-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
+        <a href="https://ed-connect360.vercel.app/"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
             <div class="message">Password Update Confirmation</div>
             <div class="body">
                 <p>Hey ${name},</p>
@@ -70,5 +70,5 @@ exports.passwordUpdated = (email, name) => {
         </div>
     </body>
     
-    </html>`;
-};
+    </html>`
+}

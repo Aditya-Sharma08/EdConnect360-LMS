@@ -67,7 +67,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
   
   <body>
       <div class="container">
-      <a href="https://studynotion-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
+      <a href="https://ed-connect360.vercel.app/"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
           <div class="message">Course Registration Confirmation</div>
           <div class="body">
               <p>Dear ${name},</p>
@@ -82,5 +82,5 @@ exports.courseEnrollmentEmail = (courseName, name) => {
       </div>
   </body>
   
-  </html>`;
-};
+  </html>`
+}

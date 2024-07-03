@@ -74,7 +74,7 @@ exports.contactUsEmail = (
   
   <body>
       <div class="container">
-      <a href="https://studynotion-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
+      <a href="https://ed-connect360.vercel.app/"><img class="logo" src="https://i.ibb.co/QPvZ7GR/rzp-logo.png" alt="Edconnect360"></a>
           <div class="message">Contact Form Confirmation</div>
           <div class="body">
               <p>Dear ${firstname} ${lastname},</p>
