@@ -10,7 +10,7 @@
 	"keywords": [
 		"edconnect360-backend"
 	],
-	"author": "Aditya Sharma",
+	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.0",
